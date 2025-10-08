@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Motivação Diária — Extensão Chrome</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      color: #007acc;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    code {
+      background: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.95em;
+    }
+
+    ol {
+      padding-left: 1.2rem;
+    }
+
+    .screenshots {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+
+    .screenshots img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 10px 16px;
+      background-color: #007acc;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    .button:hover {
+      background-color: #005f99;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>💡 Motivação Diária</h1>
+    <p>
+      <strong>Motivação Diária</strong> é uma extensão para o Google Chrome desenvolvida no Bootcamp II. Ela exibe frases motivacionais no popup e destaca palavras positivas em páginas específicas. Ideal para te dar aquele empurrãozinho durante o dia!
+    </p>
+
+    <h2>📸 Screenshots</h2>
+    <div class="screenshots">
+        <img src="foto1.png" alt="Exemplo 1">
+        <img src="foto2.png" alt="Exemplo 2">            
+    </div>
+
+    <h2>🔧 Instalação Manual</h2>
+    <ol>
+      <li>Baixe o arquivo <a href="../releases/motivacao-diaria.zip">motivacao-diaria.zip</a></li>
+      <li>Abra o Chrome e vá para <code>chrome://extensions</code></li>
+      <li>Ative o <strong>Modo do desenvolvedor</strong> (canto superior direito)</li>
+      <li>Clique em <strong>Carregar sem compactação</strong></li>
+      <li>Selecione a pasta descompactada da extensão</li>
+    </ol>
+
+    <h2>📥 Download</h2>
+    <p>
+      <a class="button" href="../releases/motivacao-diaria.zip">📦 Baixar extensão (.zip)</a>
+    </p>
+
+    <h2>📃 Sobre o projeto</h2>
+    <ul>
+      <li><strong>Manifest V3</strong></li>
+      <li><strong>Popup + Background + Content Script</strong></li>
+      <li><strong>Armazenamento local com chrome.storage</strong></li>
+      <li><strong>Interface responsiva</strong></li>
+    </ul>
+  </div>
+</body>
+</html>
