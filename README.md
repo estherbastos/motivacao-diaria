@@ -35,25 +35,27 @@
 
 ## 🗂️ Estrutura do Projeto
 
+```
 motivacao-diaria/
-├─ src/
-│ ├─ popup/
-│ │ ├─ popup.html
-│ │ ├─ popup.js
-│ │ └─ popup.css
-│ ├─ background/
-│ │ └─ service-worker.js
-│ ├─ content/
-│ │ └─ content.js
-├─ icons/
-│ ├─ icon16.png
-│ ├─ icon32.png
-│ ├─ icon48.png
-│ └─ icon128.png
-├─ docs/
-│ ├─ index.html
-│ ├─ screenshot1.png
-│ └─ screenshot2.png
-├─ manifest.json
-├─ README.md
-└─ LICENSE
+├── src/
+│   ├── popup/
+│   │   ├── popup.html
+│   │   ├── popup.js
+│   │   └── popup.css
+│   ├── background/
+│   │   └── service-worker.js
+│   ├── content/
+│   │   └── content.js
+│   ├── icons/
+│   │   ├── icon16.png
+│   │   ├── icon32.png
+│   │   ├── icon48.png
+│   │   └── icon128.png
+│   ├── docs/
+│   └── index.html
+├── screenshot1.png
+├── screenshot2.png
+├── manifest.json
+├── README.md
+└── LICENSE
+```
