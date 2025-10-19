@@ -4,7 +4,7 @@ import path from 'node:path';
 const distPath = path.join(process.cwd(), 'dist');
 
 export default defineConfig({
-  testDir: __dirname,
+  testDir: path.resolve(process.cwd(), 'tests'),
   reporter: [['list'], ['html', { outputFolder: 'playwright-report' }]],
   use: {
     headless: true,
